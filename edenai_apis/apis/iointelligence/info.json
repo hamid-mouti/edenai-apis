@@ -36,7 +36,8 @@
                 "ozone-ai/0x-lite",
                 "microsoft/Phi-3.5-mini-instruct",
                 "ibm-granite/granite-3.1-8b-instruct"
-            ]
+            ],
+            "default_model": "mistralai/Mistral-Large-Instruct-2411"
         }
         },
         "chat": {
@@ -75,7 +76,8 @@
                 "ozone-ai/0x-lite",
                 "microsoft/Phi-3.5-mini-instruct",
                 "ibm-granite/granite-3.1-8b-instruct"
-            ]
+            ],
+            "default_model": "mistralai/Mistral-Large-Instruct-2411"
         }
         }
     }

@@ -1,27 +1,34 @@
 {
-    "id": "019799e3-ca2e-d711-7063-dbc37b7dd83c",
+  "original_response": {
+    "id": "01979dea-12e5-9d7f-583e-b0318e43c4e6",
     "object": "chat.completion",
-    "created": 1750633531,
-    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "created": 1750701049,
+    "model": "mistralai/Mistral-Large-Instruct-2411",
     "choices": [
-        {
-            "index": 0,
-            "message": {
-                "role": "assistant",
-                "reasoning_content": null,
-                "content": "THIS IS A TEST!",
-                "tool_calls": []
-            },
-            "logprobs": null,
-            "finish_reason": "stop",
-            "stop_reason": null
-        }
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "reasoning_content": null,
+          "content": " Hello! I'm a helpful AI assistant. I'm here to provide information, answer questions to the best of my ability, and even tell a joke if you're up for some humor. How about you? Who are you? (You don't need to share any personal information, of course. I'm just making conversation!)",
+          "tool_calls": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null
+      }
     ],
     "usage": {
-        "prompt_tokens": 41,
-        "total_tokens": 47,
-        "completion_tokens": 6,
-        "prompt_tokens_details": null
+      "prompt_tokens": 45,
+      "total_tokens": 117,
+      "completion_tokens": 72,
+      "prompt_tokens_details": null
     },
     "prompt_logprobs": null
+  },
+  "standardized_response": {
+    "generated_text": " Hello! I'm a helpful AI assistant. I'm here to provide information, answer questions to the best of my ability, and even tell a joke if you're up for some humor. How about you? Who are you? (You don't need to share any personal information, of course. I'm just making conversation!)"
+  },
+  "usage": null,
+  "cost": null
 }
