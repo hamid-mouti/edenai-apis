@@ -1,0 +1,27 @@
+{
+    "id": "019799e3-ca2e-d711-7063-dbc37b7dd83c",
+    "object": "chat.completion",
+    "created": 1750633531,
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "reasoning_content": null,
+                "content": "THIS IS A TEST!",
+                "tool_calls": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 41,
+        "total_tokens": 47,
+        "completion_tokens": 6,
+        "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null
+}
