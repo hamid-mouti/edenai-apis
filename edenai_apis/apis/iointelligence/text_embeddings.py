@@ -10,7 +10,7 @@ headers = {
 }
 
 json_data = {
-    'input': 'The food was delicious and the waiter...',
+    'input': ['The food was delicious and the waiter...', 'lol'],
     'model': 'BAAI/bge-multilingual-gemma2',
     'encoding_format': 'float',
 }
@@ -19,4 +19,4 @@ response = requests.post('https://api.intelligence.io.solutions/api/v1/embedding
 
 # print response and other info
 print("Status code:", response.status_code)
-print("Response JSON:", response.json())
+print("Response JSON:", type(response.json()))

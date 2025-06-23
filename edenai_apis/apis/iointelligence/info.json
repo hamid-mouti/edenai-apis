@@ -79,6 +79,14 @@
             ],
             "default_model": "mistralai/Mistral-Large-Instruct-2411"
         }
+        },
+        "embeddings":{
+            "constraints":{
+                "models":[
+                    "BAAI/bge-multilingual-gemma2"
+                ],
+                "default_model":"BAAI/bge-multilingual-gemma2"
+            }
         }
     }
 }
